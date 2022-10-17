@@ -5,9 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f2f4f6 !important;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.table thead tr { 
+  background: #fc4a1a; 
+  background: -webkit-linear-gradient(to left, #f7b733, #fc4a1a);
+  background: linear-gradient(to left, #f7b733, #fc4a1a); 
+  color: antiquewhite;
 }
